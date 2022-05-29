@@ -352,10 +352,7 @@
             margin-top: 15px;
         }
     }
-    .feed-form{
-        width: 250px;
-        margin-top: 25px;
-    }  
+
     .carousel{
         &__inner{
             width: 100%;
@@ -423,4 +420,32 @@
             }
         }
     }
+    .modal{
+        width: 280px;
+        min-height: 280px;
+        &__subtitle{
+            font-size: 17px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+        &__close{
+            top: 2px;
+            right: 5px;
+        }
+
+    }
+    .feed-form{
+        width: 200px;
+        margin-top: 18px;
+        input{
+            height: 35px;
+            font-size: 12px;
+        }
+        .button_submit{
+            width: 100%;
+            height: 35px;
+            font-size: 13px;
+        }
+    }   
 }
